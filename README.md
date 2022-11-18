@@ -7,14 +7,18 @@ Create a simple by consuming the following APIs.
 
 API documentation https://rapidapi.com/api-sports/api/covid-193/
 What’s required:
+
 1. A table displaying Covid19 statistics – Searchable/Filterable by Country
 
 Preferred list of Countries available in https://covid-193.p.rapidapi.com/countries 
 
-2.     Show an hourly graph of showing covid-19 history.
+2.  Show an hourly graph of showing covid-19 history.
+
 -        X-axis – hours of the day.
 -        Y-axis – cases, deaths and tests
+
 ## Tools  
+
 1. Javascript or framework (React,Vuejs)
 2. HTML
 3. CSS
