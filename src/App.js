@@ -1,20 +1,17 @@
 import './App.css';
+import HeaderSection from './Components/HeaderSection';
+import SearchFilter from './Components/SearchFilter';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <h1>Cy-Health Research</h1>
 
+      {/* Header Section */}
+      <HeaderSection />
 
-        <h2>Covid-19 Analysis</h2>
-        
-        <p>
-          A brief analysis of Covid-19 Statistics
-        </p>
-        
-      </header>
+      {/* Search Section */}
+      <SearchFilter />
+
     </div>
   );
 }
