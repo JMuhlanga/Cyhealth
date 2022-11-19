@@ -1,16 +1,17 @@
 import React from "react";
 
-function Transaction({date,description,category,amount}) {
+function CountryTable({country,cases,population,deaths,tests}) {
   return (
     <>
         <tr>
-          <td>{date}</td>
-          <td>{description}</td>
-          <td>{category}</td>
-          <td>{amount}</td>
+          <td>{country}</td>          
+          <td>{population}</td>
+          <td>{cases}</td>
+          <td>{deaths}</td>
+          <td>{tests}</td>
         </tr>
     </>
   );
 }
 
-export default Transaction;
+export default CountryTable;
