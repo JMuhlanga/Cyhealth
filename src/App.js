@@ -1,16 +1,19 @@
 import './App.css';
 import HeaderSection from './Components/HeaderSection';
-import SearchFilter from './Components/SearchFilter';
+import StatContainer from './Components/StatContainer';
+
 
 function App() {
+
+  
   return (
     <div className="App">
 
       {/* Header Section */}
       <HeaderSection />
 
-      {/* Search Section */}
-      <SearchFilter />
+      {/* Statistics Container */}
+      <StatContainer />      
 
     </div>
   );
